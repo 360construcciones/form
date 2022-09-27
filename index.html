@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Solicitud de presupuesto</title>
+   
+   
+</head>
+<body>
+   
+
+  
+
+    <h1>¡Pedí tu presupuesto de renovación!</h1>
+    <div id="wapper" class="div">
+
+        
+
+        <h2>Sin cargo, solo ingresá tus datos</h2>
+        <form>
+
+        <div>
+            <label for="name" class="form__label"> Nombre</label>
+            <label for="apellido" class="form__label1" > Apellido</label>
+        
+
+            <br>
+        
+            <input type="text" name="name" class="form__input1" autocomplete="off" >
+            <input type="text" name="apellido" class="form__input2" autocomplete="off" >
+        </div>
+
+            <br>
+
+        <div>
+            <label for="email" class="form__label">Correo Electrónico</label>
+            <br>
+            <input type="email" name="email" class="form__input" autocomplete="off">
+        </div>
+
+            <br>
+
+        <div>
+            <label for="adress" class="form__label">Dirección del inmueble</label>
+            <br>
+            <input type="text" name="adress" class="form__input" autocomplete="off">
+        </div>
+
+            <br>
+
+        <div>
+            <label for="movil" class="form__label">Teléfono de contacto</label>
+
+            <br>
+
+            <input type="text" name="movil" class="form__input" autocomplete="off">
+        </div>
+
+            <br>
+
+        <div>
+            <label for="type" class="form__label">Tipo de edificación</label>
+        </div>
+
+            <br>
+        
+        <div class="radio">
+            <label  for="type" class="radio__label">Casa</label>
+            <input type="radio" id="casa" value="Casa" class="radio__input" name="tipo"></label>
+
+            <label for="type" class="radio__label">Departamento</label>
+            <input type="radio" id="type" value="Departamento" class="radio__input" name="tipo"></label>
+
+            <label for="type" class="radio__label">Local Comercial</label>
+            <input type="radio" id="type" value="Local Comercial" class="radio__input" name="tipo"></label>
+
+            <label for="type" class="radio__label">Otro</label>
+            <input type="radio" id="type" value="Otro" class="radio__input" name="tipo"></label>
+  
+        </div>
+
+            <br>
+            
+        <div>
+            <label for="destination" class="form__label">Destino de uso</label>
+        </div>
+
+            <br>
+
+            <label for="destination" class="radio__label">Uso propietario</label>
+            <input type="radio" id="destination" value="Uso propietario" class="radio__input" name="destino"></label>
+
+            <label for="destination" class="radio__label">Alquiler</label>
+            <input type="radio" id="destination" value="Alquiler" class="radio__input" name="destino"></label>
+        </div>
+
+            <br>
+            
+        <div>
+            <label for="surface" class="form__label">Superficie en m²</label>
+        </div>
+
+            <br>
+
+            <input type="text" name="surface" class="form__input" autocomplete="off">
+        </div>
+
+            <br>
+
+            <div>
+                <label for="coments" class="form__label">Cuéntanos un poco lo que quieres hacer con una breve descripción.
+                </label>
+            </div>
+    
+                <br>
+    
+                <input type="text" id="coments" class="form__input-com" autocomplete="off" name="comentarios">
+            </div>
+    
+                <br>
+            
+
+        <div class="dragArea">
+
+            <div>
+                <p class="form__label">Arrastrar y soltar fotos aqui</p>
+            </div>
+            
+            <br>
+
+            <div>
+                <button>Buscar en carpeta</button>
+                <input type="file" name="archivo" id="input-file" hidden multiple/> 
+            </div>
+
+        </div>
+
+        <div id="preview"></div>
+
+        <script src="javas/indexA.js"></script>
+           <div class="div-btn">
+            <button type="submit" class="btn_submit">
+                ENVIAR
+            </button>
+                 </div>
+               
+
+        </form>
+    </div>
+    
+</body>
+</html>
