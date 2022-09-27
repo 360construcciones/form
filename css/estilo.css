@@ -5,8 +5,7 @@ body {
     min-width: 250px;
     height: 100vh;
     display: grid;
-    padding-left: 10px;
-    padding-right: 10px;
+   
     width: fit-content;
     background-image: url('img/360backb.png');
     border: none
